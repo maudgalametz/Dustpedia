@@ -38,8 +38,8 @@ conda install scikit-learn
 To run the Graphic Interface, you will need to have Tkinter installed on your machine
 
 Tkinter is not a pip package, so you might want to use:
-apt-get install python-tk
-
+```apt-get install python-tk
+```
 
 
 
@@ -48,23 +48,35 @@ apt-get install python-tk
 
 ## How to use the script PredictDustpedia.py:
 
-PredictDustpedia.py: 
+**Inputs:** 
 
-Inputs: 
 wave: array containing your input wavelength (in microns)
+
 flux: array containing your input fluxes (in Jy)
+
 wavereq: Wavelength of the flux to estimate
 
-Output: Predicted fluxes at wavereq (in Jy)
+**Output** 
 
-Example:  PredictDustpedia([100,250],[2.8,2.8],350)
+Predicted fluxes at wavereq (in Jy)
+
+**Example** 
+
+PredictDustpedia([100,250],[2.8,2.8],350)
 
 
 ## How to use the graphic Interface GraphicInterface.py:
 
 Opens a window where the previous inputs can be manually manipulated
 
-Output: Provide the predicted fluxes at wavereq (in Jy) 
+**Output** 
+
+Provide the predicted fluxes at wavereq (in Jy) 
+
+**Example**
+
+execfile('GraphicInterface.py')
+
 
 
 ## Versioning
