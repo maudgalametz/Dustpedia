@@ -1,6 +1,4 @@
-# Project Title
-
-Predicting your fluxes using the Dustpedia database
+# Predicting your fluxes using the Dustpedia database
 
 
 ### Description
